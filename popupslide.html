@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ac7822f316.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="popupslide.js"></script>
+    <link rel="stylesheet" href="popupslides.css">
+</head>
+<body>
+    <div id="popup" class="container">
+        <div class="close-button">
+            <i class="fa-solid fa-xmark " id="closePopup"></i>
+        </div>
+        <div class="container-info">
+            <div class="video-button"> <i class="fa-solid fa-circle-play"></i></div>
+            <div class="links">
+                <h3>Technical videos and tutorials</h3>
+                <p>Not sure where to start?Watch our <a href="">Tutorials</a> or review our
+                    <a id="openPopup">Onboarding</a> resources on how to use collaboration Space.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popupContainer" class="dashboard">
+        <div id="popupContent">
+            <div class="onbpording-page">
+                <div>
+                    <p>Collabartion Space Onboarding</p>
+                </div>
+                <div><i class="fa-solid fa-xmark " id="closePopup"></i></div>
+            </div>
+            <div class="welcome-text">
+                <h2>Welcome</h2>
+                <p>Learn how to find the best machining solutions for your operations with Collabations Space</p>
+                <button id="getStarted">Get Started</button>
+            </div>
+            <div class="skip-tutorial">
+                <p>Not your first time with Collaboration Space? <a href=""> Skip that tutorial.</a></p>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div id="secondScreen">
+        <div id="secondSlide">
+            <div class="onbpording-page">
+                <div>
+                    <p>Collabartion Space Onboarding</p>
+                </div>
+                <div><i class="fa-solid fa-xmark " id="closePopup"></i></div>
+            </div>
+            <div class="slide-container">
+                <div class="slideshow">
+                <div class="Dashboard">
+                    <h3>Dashboard</h3>
+                    <p>Customize your dashboard by editing widgets for the perfect overview of your assemblies.</p>
+                    <img src="slider1.jpg" alt="">
+                </div>
+                 <div class="Dashboard">
+                    <h3>Virtual Toolbar</h3>
+                    <p>Build the assemblies you need for your operations by adding machines,projects, and solutions.</p>
+                    <img src="slider2.jpg" alt="">
+                </div>
+                <div class="Dashboard">
+                    <h3>Solition Finder</h3>
+                    <p>Find the best solutions based on function, machine type,parameters,strategy,and working material.</p>
+                    <img src="slider3.jpg" alt="">
+                </div>
+                <div class="Dashboard">
+                    <h3>Approval Drawings</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <img src="slider4.jpg" alt="">
+                </div>
+                <div class="Dashboard">
+                    <h3>Collaboration Teams</h3>
+                    <p>Share your vrtual toolbox and collaborate with teams to build the most effective assemblies.</p>
+                    <img src="slider5.jpg" alt="">
+                </div>
+            </div>
+
+
+              <div class="movable-buttons">
+                <button class="prev" id="previous">Previous</button>  
+                <button class="next">Next</button> 
+                <button class="close" >Close</button>
+              </div>    
+           </div> 
+
+           <div class="dots"></div>
+           
+        </div>
+    </div>  
+</body>
+
+</html>
